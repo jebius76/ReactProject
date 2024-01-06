@@ -1,6 +1,29 @@
 .navBar {
     display: flex;
+    padding: none;
+    justify-content: center;
     min-width: 150px;
+    width: 150px;
     height: 100vh;
-    background-color:rgb(77, 77, 214);
+    background-color:rgb(146, 146, 175);
+}
+
+
+.menuOptions {
+    list-style: none;
+    padding: 0px;
+}
+
+.linkButton {
+    list-style: none;
+    width: 140px;
+    min-width: 140px;
+    height: 25px;
+    border: none;
+    background-color:rgb(146, 146, 175);
+}
+
+.linkButton:hover{
+    background-color: rgb(8, 8, 151);
+    color: white;
 }

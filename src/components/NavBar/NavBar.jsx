@@ -6,11 +6,22 @@ const NavBar = () => {
     return (
         <>
             <div className='navBar'>
-                <ul>
-                    <Link to={'MainPage/'}>Main Page</Link>
-                    <li>Menu 2</li>
-                    <li>Menu 3</li>
-                    <Link to={'Contact/'}>Contact</Link>
+                <ul className='menuOptions'>
+                    <li>
+                        <Link to={'MainPage/'}>
+                            <button className='linkButton'>Main Page</button>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={'MainPage/'}>
+                            <button className='linkButton'>Main Page</button>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={'contact/'}>
+                            <button className='linkButton'>Contact</button>
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <Outlet />
