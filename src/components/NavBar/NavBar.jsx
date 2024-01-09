@@ -8,13 +8,13 @@ const NavBar = () => {
             <div className='navBar'>
                 <ul className='menuOptions'>
                     <li>
-                        <Link to={'MainPage/'}>
-                            <button className='linkButton'>Main Page</button>
+                        <Link to={'HomePage/'}>
+                            <button className='linkButton'>Home</button>
                         </Link>
                     </li>
                     <li>
-                        <Link to={'MainPage/'}>
-                            <button className='linkButton'>Main Page</button>
+                        <Link to={'FormPage/'}>
+                            <button className='linkButton'>Form</button>
                         </Link>
                     </li>
                     <li>

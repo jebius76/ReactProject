@@ -1,6 +1,9 @@
+@keyframes example {
+    to {background-color: blue;}
+  }
+
 .navBar {
     display: flex;
-    padding: none;
     justify-content: center;
     min-width: 150px;
     width: 150px;
@@ -8,22 +11,24 @@
     background-color:rgb(146, 146, 175);
 }
 
-
 .menuOptions {
     list-style: none;
     padding: 0px;
+    margin: 5px;
 }
 
 .linkButton {
     list-style: none;
     width: 140px;
     min-width: 140px;
-    height: 25px;
+    height: 35px;
     border: none;
     background-color:rgb(146, 146, 175);
+    transition: .3s;
 }
 
 .linkButton:hover{
     background-color: rgb(8, 8, 151);
     color: white;
+    border: solid 1px rgb(77, 77, 77);
 }
