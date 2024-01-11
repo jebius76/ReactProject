@@ -1,3 +1,7 @@
+body{
+  background: linear-gradient(0deg, rgba(246,245,255,1) 0%, rgba(191,200,255,1) 100%, rgba(193,198,225,1) 100%);
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -5,9 +9,32 @@
   height: 100vh; */
 }
 
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@keyframes show{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fadeEffect {
+  animation: show .2s forwards;
 }
 
 @media (prefers-reduced-motion: no-preference) {

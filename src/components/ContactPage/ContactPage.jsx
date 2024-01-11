@@ -3,7 +3,7 @@ import './ContactPage.css';
 
 const ContactPage = () => {
     return (
-        <div className='contactContainer'>
+        <div className='contactContainer fadeEffect'>
             <h2>Informacion de contacto</h2>
         </div>
     );

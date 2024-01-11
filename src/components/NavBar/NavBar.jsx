@@ -1,14 +1,21 @@
 import React from 'react';
 import './NavBar.css';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
+
+    let location = useLocation();
+
+    const clickAction = () =>{
+        console.log ("Hice click");
+    }
+
     return (
         <>
             <div className='navBar'>
                 <ul className='menuOptions'>
                     <li>
-                        <Link to={'HomePage/'}>
+                        <Link location={location} to={'HomePage/'}>
                             <button className='linkButton'>Home</button>
                         </Link>
                     </li>

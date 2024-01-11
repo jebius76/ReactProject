@@ -24,7 +24,7 @@
     height: 35px;
     border: none;
     background-color:rgb(146, 146, 175);
-    transition: .3s;
+    transition: .2s;
 }
 
 .linkButton:hover{
