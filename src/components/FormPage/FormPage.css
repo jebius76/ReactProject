@@ -3,3 +3,14 @@ form{
     flex-direction: column;
     padding: 20px;
 }
+
+.errorMsg {
+    color: red;
+    font-size: .8rem;
+    height: 15px;
+}
+
+label {
+    display: block;
+    float: left;
+}
